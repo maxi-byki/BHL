@@ -24,3 +24,4 @@
 /Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Debug/net8.0/BHL_url_server.pdb
 /Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Debug/net8.0/BHL_url_server.genruntimeconfig.cache
 /Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Debug/net8.0/ref/BHL_url_server.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/bin/Debug/net8.0/oldSettings.json

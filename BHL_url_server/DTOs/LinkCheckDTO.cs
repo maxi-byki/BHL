@@ -1,6 +1,5 @@
 namespace BHL_url_server.DTOs;
 
-public record LinkDTO(
-    int RegisterPositionId,
+public record LinkCheckDTO(
     string DomainAddress
     );

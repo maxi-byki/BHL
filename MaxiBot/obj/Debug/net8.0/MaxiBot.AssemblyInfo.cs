@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaxiBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+890f409c9fe8d96c1494b62eaa067b25c030db18")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb15b3eeaf4cf47fa244918c4fe3ff871f43a3e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaxiBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaxiBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

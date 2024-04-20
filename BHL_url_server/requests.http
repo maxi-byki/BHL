@@ -1,2 +1,12 @@
 ###
-GET http://localhost:5149
+POST http://10.105.24.154:5149
+Content-Type: application/json
+
+{
+  "token": "asd",
+  "challenge": "asdsad",
+  "type": "url_verification"
+}
+
+###
+GET 10.105.24.154:5149
