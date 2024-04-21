@@ -38,6 +38,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Google.Apis.Safebrowsing.v4": {
+              "target": "Package",
+              "version": "[1.67.0.2968, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
             "Slack.NetStandard": {
               "target": "Package",
               "version": "[9.3.0, )"

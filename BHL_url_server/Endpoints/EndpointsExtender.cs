@@ -9,6 +9,8 @@ using Slack.NetStandard.EventsApi.CallbackEvents;
 using Slack.NetStandard.Messages.Blocks;
 using Slack.NetStandard.WebApi.Chat;
 using BHL_url_server.HelpClasses;
+using MaxiBot;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace BHL_url_server.Endpoints;
 
@@ -32,12 +34,12 @@ public static class EndpointsExtender
                 case "url_verification":
                 {
                     var challenge = payload["challenge"]?.ToString();
-                    
+
                     using (StreamWriter outputFile = new StreamWriter("./WriteLines.txt", false))
                     {
                         outputFile.WriteLine("Challenge verification.");
                     }
-                    
+
                     if (challenge != null)
                     {
                         return Results.Content(challenge, "text/plain");
@@ -54,7 +56,8 @@ public static class EndpointsExtender
                     {
                         outputFile.WriteLine("Link verification");
                     }
-                    switch(links.FindIndex(link => link.DomainAddress == payload["link"].ToString()))
+
+                    switch (links.FindIndex(link => link.DomainAddress == payload["link"].ToString()))
                     {
                         case -1:
                             return Results.Content("Safe site");
@@ -68,20 +71,20 @@ public static class EndpointsExtender
                     string token = payload["token"]?.ToString();
                     var eventObject = JsonConvert.DeserializeObject<Event>(payload.ToString());
                     Root root = JsonConvert.DeserializeObject<Root>(payload.ToString());
-                    
+
                     using (StreamWriter outputFile = new StreamWriter("./WriteLines.txt", true))
                     {
                         outputFile.WriteLine("Link verification, token:" + token);
                         outputFile.WriteLine(payload.ToString());
                     }
-                    
+
                     if (eventObject is EventCallback callback)
                     {
                         using (StreamWriter outputFile = new StreamWriter("./WriteLines.txt", true))
                         {
                             outputFile.WriteLine("Sucessfully entered if.");
                         }
-                        
+
                         switch (root.@event.type)
                         {
                             case "app_mention":
@@ -90,37 +93,61 @@ public static class EndpointsExtender
                                 {
                                     outputFile.WriteLine("Sucessfully entered app mention.");
                                 }
-                                
-                                // string channel = "chuj";
+
                                 // string text = payload["text"]?.ToString();
-                                
+
                                 // Uzyskaj dostęp do pól channel i text
                                 string channel = root.@event.channel;
                                 string text = root.@event.text;
-                                
+
                                 using (StreamWriter outputFile = new StreamWriter("./WriteLines.txt", true))
                                 {
                                     outputFile.WriteLine("Channel: " + channel + " Text: " + text);
                                 }
-                                
+
                                 var request = new PostMessageRequest { Channel = channel };
-                                request.Blocks.Add(new Section{Text = new PlainText("Helloo there!")});
-                                
-                                var client = new SlackWebApiClient("xoxb-6992596311813-6989035448966-LkwwLwJMGgieeDVxQTAYMRi4");
+
+                                string chatRequest = await GptHelper.get_response(text);
+
+                                request.Blocks.Add(new Section { Text = new PlainText(chatRequest) });
+
+                                var client =
+                                    /* HERE SHOULD BE KEY */
                                 await client.Chat.Post(request);
+
+                                return Results.NoContent();
+                            }
+                                break;
+                            case "message":
+                            {
+                                string channel = root.@event.channel;
+                                string text = root.@event.text;
                                 
+                                var mess = await Parser.Check(text, links);
+                                if ( mess == "OK")
+                                    return Results.NoContent();
+
+                                var request = new PostMessageRequest { Channel = channel };
+                                
+                                request.Blocks.Add(new Section { Text = new PlainText(mess) });
+
+                                var client =
+                                    /* HERE SHOULD BE KEY */
+                                await client.Chat.Post(request);
+
                                 return Results.NoContent();
                             }
                                 break;
                             default:
                                 break;
                         }
+
+                        break;
                     }
                 }
-                    break;
+                    // zwracamy cokolwie
+                    return Results.BadRequest("Bad request");
             }
-
-            // zwracamy cokolwiek
             return Results.BadRequest("Bad request");
         });
             

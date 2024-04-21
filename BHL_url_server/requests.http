@@ -21,3 +21,24 @@ Content-Type: application/json
 
 ###
 GET https://maxibykibhl3.azurewebsites.net
+
+###
+POST https://safebrowsing.googleapis.com/v4/threatMatches:find?key=AIzaSyAYEvoe1CS6yIzLlmb_Ff2Lg7Dqu8fDZqk HTTP/1.1
+Content-Type: application/json
+
+{
+  "client": {
+    "clientId":      "bhlMaxiByki",
+    "clientVersion": "1.5.2"
+  },
+  "threatInfo": {
+    "threatTypes":      ["MALWARE", "SOCIAL_ENGINEERING"],
+    "platformTypes":    ["WINDOWS"],
+    "threatEntryTypes": ["URL"],
+    "threatEntries": [
+      {"url": "http://teuinet.com/wu/"},
+      {"url": "http://www.urltocheck2.org/"},
+      {"url": "http://www.urltocheck3.com/"}
+    ]
+  }
+}

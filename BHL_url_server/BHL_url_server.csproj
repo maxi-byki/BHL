@@ -7,6 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Google.Apis.Safebrowsing.v4" Version="1.67.0.2968" />
+      <PackageReference Include="OpenAI" Version="1.11.0" />
       <PackageReference Include="Slack.NetStandard" Version="9.3.0" />
     </ItemGroup>
 

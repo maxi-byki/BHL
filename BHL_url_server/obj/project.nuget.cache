@@ -1,11 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "Avqd7v+3pY6NVnqVzrt/VXA7PUreV2eQ3miAO9UBUO9T2BQn+MC2DFZCJ7ioILSbQSFii13XQDaPyPO+aU65Gg==",
+  "dgSpecHash": "mhvNkjRU48hhyLdjr8HQADogE6210Kr+75IJ1s8t8yNzNfBz6oG9+qwRG92c/8AqZ82Xg5kVo8DFaEMd7VHkbw==",
   "success": true,
   "projectFilePath": "/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/BHL_url_server.csproj",
   "expectedPackageFiles": [
-    "/Users/ernestmolczan/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
-    "/Users/ernestmolczan/.nuget/packages/slack.netstandard/9.3.0/slack.netstandard.9.3.0.nupkg.sha512"
+    "/Users/ernestmolczan/.nuget/packages/google.apis/1.67.0/google.apis.1.67.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/google.apis.core/1.67.0/google.apis.core.1.67.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/google.apis.safebrowsing.v4/1.67.0.2968/google.apis.safebrowsing.v4.1.67.0.2968.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.extensions.configuration/2.1.0/microsoft.extensions.configuration.2.1.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.extensions.configuration.abstractions/2.1.0/microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.extensions.configuration.binder/2.1.0/microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.extensions.http/2.1.0/microsoft.extensions.http.2.1.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.extensions.logging/2.1.0/microsoft.extensions.logging.2.1.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.extensions.logging.abstractions/2.1.0/microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.extensions.options/2.1.0/microsoft.extensions.options.2.1.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/microsoft.extensions.primitives/2.1.0/microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/openai/1.11.0/openai.1.11.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/slack.netstandard/9.3.0/slack.netstandard.9.3.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512",
+    "/Users/ernestmolczan/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

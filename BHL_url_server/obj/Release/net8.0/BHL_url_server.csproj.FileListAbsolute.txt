@@ -29,3 +29,8 @@
 /Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/bin/Release/net8.0/Slack.NetStandard.dll
 /Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Release/net8.0/BHL_url_server.csproj.AssemblyReference.cache
 /Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Release/net8.0/BHL_url_.68000339.Up2Date
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/bin/Release/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/bin/Release/net8.0/OpenAI_API.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/bin/Release/net8.0/Google.Apis.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/bin/Release/net8.0/Google.Apis.Core.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/bin/Release/net8.0/Google.Apis.Safebrowsing.v4.dll
