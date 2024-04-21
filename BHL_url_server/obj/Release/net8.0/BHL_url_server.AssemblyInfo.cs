@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BHL_url_server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd294437c98f4d45247c7b6b24752e6269aea12d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e29fc76c4278492c169a70014f50d449ee6b151")]
 [assembly: System.Reflection.AssemblyProductAttribute("BHL_url_server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BHL_url_server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

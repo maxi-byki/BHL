@@ -6,4 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Slack.NetStandard" Version="9.3.0" />
+    </ItemGroup>
+
 </Project>

@@ -25,3 +25,7 @@
 /Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Release/net8.0/BHL_url_server.pdb
 /Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Release/net8.0/BHL_url_server.genruntimeconfig.cache
 /Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Release/net8.0/ref/BHL_url_server.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/bin/Release/net8.0/Newtonsoft.Json.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/bin/Release/net8.0/Slack.NetStandard.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Release/net8.0/BHL_url_server.csproj.AssemblyReference.cache
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/BHL_url_server/obj/Release/net8.0/BHL_url_.68000339.Up2Date

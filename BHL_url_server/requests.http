@@ -1,5 +1,5 @@
 ###
-POST http://localhost:5149/slackapi
+POST https://maxibykibhl3.azurewebsites.net/slackapi
 Content-Type: application/json
 
 {
@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5149/slackapi
+POST https://maxibykibhl3.azurewebsites.net/slackapi
 Content-Type: application/json
 
 {
@@ -20,4 +20,4 @@ Content-Type: application/json
 
 
 ###
-GET http://localhost:5149
+GET https://maxibykibhl3.azurewebsites.net
