@@ -1,5 +1,5 @@
 ###
-POST http://10.105.24.154:5149
+POST http://localhost:5149/slackapi
 Content-Type: application/json
 
 {
@@ -9,4 +9,15 @@ Content-Type: application/json
 }
 
 ###
-GET 10.105.24.154:5149
+POST http://localhost:5149/slackapi
+Content-Type: application/json
+
+{
+  "token": "asd",
+  "link": "casesmortyss.com",
+  "type": "link_verification"
+}
+
+
+###
+GET http://localhost:5149
