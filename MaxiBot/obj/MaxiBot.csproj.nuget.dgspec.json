@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jakubkindracki/RiderProjects/BHL/MaxiBot/MaxiBot.csproj": {}
+    "/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/MaxiBot.csproj": {}
   },
   "projects": {
-    "/Users/jakubkindracki/RiderProjects/BHL/MaxiBot/MaxiBot.csproj": {
+    "/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/MaxiBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jakubkindracki/RiderProjects/BHL/MaxiBot/MaxiBot.csproj",
+        "projectUniqueName": "/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/MaxiBot.csproj",
         "projectName": "MaxiBot",
-        "projectPath": "/Users/jakubkindracki/RiderProjects/BHL/MaxiBot/MaxiBot.csproj",
-        "packagesPath": "/Users/jakubkindracki/.nuget/packages/",
-        "outputPath": "/Users/jakubkindracki/RiderProjects/BHL/MaxiBot/obj/",
+        "projectPath": "/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/MaxiBot.csproj",
+        "packagesPath": "/Users/ernestmolczan/.nuget/packages/",
+        "outputPath": "/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jakubkindracki/.nuget/NuGet/NuGet.Config"
+          "/Users/ernestmolczan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

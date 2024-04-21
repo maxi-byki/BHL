@@ -1,0 +1,15 @@
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/MaxiBot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/MaxiBot.AssemblyInfoInputs.cache
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/MaxiBot.AssemblyInfo.cs
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/MaxiBot.csproj.CoreCompileInputs.cache
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/MaxiBot.sourcelink.json
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/bin/Debug/net8.0/MaxiBot
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/bin/Debug/net8.0/MaxiBot.deps.json
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/bin/Debug/net8.0/MaxiBot.runtimeconfig.json
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/bin/Debug/net8.0/MaxiBot.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/bin/Debug/net8.0/MaxiBot.pdb
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/MaxiBot.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/refint/MaxiBot.dll
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/MaxiBot.pdb
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/MaxiBot.genruntimeconfig.cache
+/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/obj/Debug/net8.0/ref/MaxiBot.dll

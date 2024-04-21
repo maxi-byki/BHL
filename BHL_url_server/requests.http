@@ -1,0 +1,23 @@
+###
+POST http://localhost:5149/slackapi
+Content-Type: application/json
+
+{
+  "token": "asd",
+  "challenge": "asdsad",
+  "type": "url_verification"
+}
+
+###
+POST http://localhost:5149/slackapi
+Content-Type: application/json
+
+{
+  "token": "asd",
+  "link": "casesmortyss.com",
+  "type": "link_verification"
+}
+
+
+###
+GET http://localhost:5149

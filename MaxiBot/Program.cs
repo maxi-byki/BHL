@@ -2,6 +2,9 @@
 {
     public class MaxiBot
     {
-        // laksjdflkasjflkasjdf;
+        public static void Main()
+        {
+            Console.WriteLine("Entry point");
+        }
     }
 }

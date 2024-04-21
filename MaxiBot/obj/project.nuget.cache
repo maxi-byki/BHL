@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NoPvLYdS1i3Ip6WnTRaNijXSDAM8L1bjqQaXqC3ZGkw0ppGE23GC38YxWnOS79Y5C4iDrDWF6N1Ppoph/BExMw==",
+  "dgSpecHash": "a2EEe1mIapgSdGZ7pmw2ORt3AZpyfFkaZbcLsxO6dP7ZJqkhTy1G3nFf2blxu3/aCdLwuwODd12XIrMZPEMYeA==",
   "success": true,
-  "projectFilePath": "/Users/jakubkindracki/RiderProjects/BHL/MaxiBot/MaxiBot.csproj",
+  "projectFilePath": "/Users/ernestmolczan/dev/ASP_NET_Apps/BHL_main_repo/MaxiBot/MaxiBot.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

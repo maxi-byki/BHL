@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/BHL_url_server.props" />
+</Project>
