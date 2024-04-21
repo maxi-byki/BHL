@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|c:\\users\\lenovo\\source\\repos\\bhl\\maxibot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|solutionrelative:maxibot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|c:\\users\\lenovo\\source\\repos\\bhl\\maxibot\\urle.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|solutionrelative:maxibot\\urle.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|c:\\users\\lenovo\\source\\repos\\bhl\\maxibot\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|solutionrelative:maxibot\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|c:\\users\\lenovo\\source\\repos\\bhl\\maxibot\\matcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|solutionrelative:maxibot\\matcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|c:\\users\\lenovo\\source\\repos\\bhl\\maxibot\\slackconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DFA73-2A73-4980-B53F-2A58F7768B34}|MaxiBot\\MaxiBot.csproj|solutionrelative:maxibot\\slackconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,8 +45,56 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "urle.txt",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Source\\Repos\\BHL\\MaxiBot\\urle.txt",
+              "RelativeDocumentMoniker": "MaxiBot\\urle.txt",
+              "ToolTip": "C:\\Users\\Lenovo\\Source\\Repos\\BHL\\MaxiBot\\urle.txt",
+              "RelativeToolTip": "MaxiBot\\urle.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-21T02:15:19.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Matcher.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\Matcher.cs",
+              "RelativeDocumentMoniker": "MaxiBot\\Matcher.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\Matcher.cs",
+              "RelativeToolTip": "MaxiBot\\Matcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:13:46.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SlackConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\SlackConnection.cs",
+              "RelativeDocumentMoniker": "MaxiBot\\SlackConnection.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\SlackConnection.cs",
+              "RelativeToolTip": "MaxiBot\\SlackConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T00:49:38.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\Parser.cs",
+              "RelativeDocumentMoniker": "MaxiBot\\Parser.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\Parser.cs",
+              "RelativeToolTip": "MaxiBot\\Parser.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T17:34:30.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -38,9 +102,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\Program.cs",
               "RelativeDocumentMoniker": "MaxiBot\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\Program.cs",
-              "RelativeToolTip": "MaxiBot\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\Program.cs*",
+              "RelativeToolTip": "MaxiBot\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T16:56:36.124Z",
               "EditorCaption": ""

@@ -7,14 +7,14 @@ using System.Text.RegularExpressions;
 using SlackNet.Events;
 namespace MaxiBot
 {
-    class Parser
+    public class Parser
     {
-        public Parser()
-        {
-
-        }
-
+        string message;
         
+        public Parser(string message)
+        {
+            this.message = message;
+        }
         public bool IsVulgar(string text) 
         {
             string pattern1 = ".*idiot.*";
@@ -44,16 +44,39 @@ namespace MaxiBot
         {
             string[] words = input.Split(" ");
             string pattern = @".+\..+";
+            Matcher matcher = new Matcher();
             Regex reg = new Regex(pattern);
             foreach(var word in words) 
             {
                 if (reg.IsMatch(word)) 
                 {
-                    //check if this word suits some urls in database, if not, let the bot check
+                    if (matcher.IsMatch(word)) return 1;
+                    else return 2;
                 }
             }
             return 0;
-            
+        }
+
+
+        public void Check()
+        {
+            if (IsVulgar(message))
+            {
+                //send vulgar mess
+                Console.WriteLine("nie obrażaj Szefa");
+            }
+            if (IsLink(message) == 1)
+            {
+                Console.WriteLine("znalazlo w bazie");
+            }
+            else if (IsLink(message) == 2)
+            {
+                Console.WriteLine("nie znalazło ale jest kropka");
+            }
+            else
+            {
+                Console.WriteLine("nic");
+            }
         }
     }
 }

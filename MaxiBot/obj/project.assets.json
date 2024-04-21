@@ -291,6 +291,18 @@
           }
         }
       },
+      "Slack.NetStandard/9.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Slack.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Slack.NetStandard.dll": {}
+        }
+      },
       "SlackNet/0.12.3": {
         "type": "package",
         "dependencies": {
@@ -1644,6 +1656,20 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "Slack.NetStandard/9.3.0": {
+      "sha512": "Mzr+7I6MYS1C3KNGPcRGn4NicS/OFFLtkqorW7h1z1B6sb2HQ/dqMLI5bXNLIwM4lnMsegmIQhXdj3+nAQDg4g==",
+      "type": "package",
+      "path": "slack.netstandard/9.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/netstandard2.0/Slack.NetStandard.dll",
+        "slack.netstandard.9.3.0.nupkg.sha512",
+        "slack.netstandard.nuspec"
       ]
     },
     "SlackNet/0.12.3": {
@@ -3986,6 +4012,7 @@
     "net8.0": [
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 8.0.4",
       "Newtonsoft.Json >= 13.0.3",
+      "Slack.NetStandard >= 9.3.0",
       "SlackNet >= 0.12.3"
     ]
   },
@@ -3996,11 +4023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\BHL\\MaxiBot\\MaxiBot.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\MaxiBot.csproj",
       "projectName": "MaxiBot",
-      "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\BHL\\MaxiBot\\MaxiBot.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\MaxiBot.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\BHL\\MaxiBot\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\BHL\\MaxiBot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4046,6 +4073,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "Slack.NetStandard": {
+            "target": "Package",
+            "version": "[9.3.0, )"
           },
           "SlackNet": {
             "target": "Package",
