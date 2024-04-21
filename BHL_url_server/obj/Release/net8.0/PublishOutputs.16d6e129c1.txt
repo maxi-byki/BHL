@@ -1,0 +1,12 @@
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/BHL_url_server
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/appsettings.Development.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/appsettings.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/oldSettings.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/BHL_url_server.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/BHL_url_server.deps.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/BHL_url_server.runtimeconfig.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/BHL_url_server.pdb
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/Microsoft.Bcl.AsyncInterfaces.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/Newtonsoft.Json.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/OpenAI_API.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish10104778618215400127/Slack.NetStandard.dll

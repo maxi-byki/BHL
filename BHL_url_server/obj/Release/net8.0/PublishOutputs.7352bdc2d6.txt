@@ -1,0 +1,10 @@
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/BHL_url_server
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/appsettings.Development.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/appsettings.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/oldSettings.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/BHL_url_server.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/BHL_url_server.deps.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/BHL_url_server.runtimeconfig.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/BHL_url_server.pdb
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/Newtonsoft.Json.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish9717388550739235145/Slack.NetStandard.dll

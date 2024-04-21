@@ -1,0 +1,15 @@
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/BHL_url_server
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/appsettings.Development.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/appsettings.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/oldSettings.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/BHL_url_server.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/BHL_url_server.deps.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/BHL_url_server.runtimeconfig.json
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/BHL_url_server.pdb
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/Google.Apis.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/Google.Apis.Core.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/Google.Apis.Safebrowsing.v4.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/Microsoft.Bcl.AsyncInterfaces.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/Newtonsoft.Json.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/OpenAI_API.dll
+/var/folders/ds/93519xb93c95jdhjpngnyjcc0000gp/T/rider-publish4866509042015047296/Slack.NetStandard.dll
